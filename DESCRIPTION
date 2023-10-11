@@ -1,0 +1,23 @@
+Package: mysterycoffee
+Type: Package
+Title: Simulation of random encounters between people in couples
+Version: 0.1.0
+Author: Barbara Vreede
+Maintainer: Barbara Vreede <b.vreede@esciencecenter.nl>
+Description: Simulates random encounters between couples of persons
+    This package was inspired by the need to mitigate social isolation in remote
+    working environments. The idea is to simulate random encounters at the office's
+    coffee machine... when there is no such office.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Imports:
+    tibble (>= 3.1.8)
+Suggests:
+    knitr (>= 1.40),
+    rmarkdown (>= 2.15),
+    testthat (>= 3.0.0)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+VignetteBuilder: knitr
