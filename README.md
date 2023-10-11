@@ -11,7 +11,12 @@ The goal of mysterycoffee is to ...
 You can install the development version of mysterycoffee like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install_github("bvreede/mysterycoffee_dragdrop")
+```
+
+Install with vignettes:
+``` r
+devtools::install_github("bvreede/mysterycoffee_dragdrop", build_vignettes=TRUE)
 ```
 
 ## Example
